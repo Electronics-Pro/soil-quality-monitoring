@@ -35,5 +35,4 @@ D --> E(Mobile/PC)
 ```
 
 ## Final Results
-<a href=https://ibb.co/tpr2Bn2><img>https://i.ibb.co/CKG9B49/corr.png</img></url>
 ![Drag Racing](https://i.ibb.co/CKG9B49/corr.png)
