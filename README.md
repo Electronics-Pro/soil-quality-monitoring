@@ -13,11 +13,11 @@ The app is designed in such a way that a farmer can easily access information in
 Such a project can be modified to cover even more situations such as medical, home automation, security systems etc.
 
 ## Attached pictures
-Cover image: Main hardware setup
-Picture 1: BME280 Temperature, Humidity, Pressure and BH1750 Light Sensor
-Picture 2: UV Index, Precipitation and location of node
-Picture 3: Proposed website to view data and suggestions
-Picture 4: Output of correlation between different sensors to draw useful conclusions
+- Cover image: Main hardware setup
+- Picture 1: BME280 Temperature, Humidity, Pressure and BH1750 Light Sensor
+- Picture 2: UV Index, Precipitation and location of node
+- Picture 3: Proposed website to view data and suggestions
+- Picture 4: Output of correlation between different sensors to draw useful conclusions
 
 
 ## Challenges we faced
