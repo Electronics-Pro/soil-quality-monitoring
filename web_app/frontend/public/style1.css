@@ -1,0 +1,40 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+
+}
+h1{
+    margin: 50px;
+
+    text-align: center;
+}    
+
+.container{
+    display:grid ;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+    
+}
+.map { 
+    position: center;
+    width: 300%;
+    height: 400px;
+    
+}
+
+.land{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-gap: 60px;
+    padding: 50px;
+    background-color: rgb(232, 241, 241);
+
+}
+.land div img{
+     width: 100%;
+}
+
+.land div img:hover{
+    opacity: 0.5;
+}
