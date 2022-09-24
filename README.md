@@ -12,7 +12,7 @@ The app is designed in such a way that a farmer can easily access information in
 
 Such a project can be modified to cover even more situations such as medical, home automation, security systems etc.
 
-Attached pictures
+## Attached pictures
 Cover image: Main hardware setup
 Picture 1: BME280 Temperature, Humidity, Pressure and BH1750 Light Sensor
 Picture 2: UV Index, Precipitation and location of node
@@ -20,7 +20,7 @@ Picture 3: Proposed website to view data and suggestions
 Picture 4: Output of correlation between different sensors to draw useful conclusions
 
 
-Challenges:
+## Challenges we faced
 We had an issue using a cloud service AWS(Amazon Web Services) as the host for our website. It required time to get access to the cloud resources. Hence we had to use an existing cloud service called ThingSpeak to capture data from the ESP8266 and provide it in JSON format which is then fed into the website.
 
 We had further problem in storage of data in a MongoDB database. So we had to resort to using real time data in the website for viewing purposes. So for the last part of the project we collected sensor data over a period of 5 hours in CSV format, saved it locally and analysed the data using Jupyter Notebook for testing purposes. Further we also ran a similar notebook for an existing database with the NPK fertilizer, Temperature, Humidity, pH, Rainfall columns and drew interesting conclusions such as, Rice needs heavy rainfall (>200 mm) and a humidity above 80% and hence grows well in East Coastal India where they get around 220mm of rainfall and Coconut is a tropical crop and needs high humidity and hence grows well in coastal areas around the country.
