@@ -6,8 +6,6 @@
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME280.h>
 
-//test
-
 #ifndef STASSID
 #define STASSID "3SECS-4G"
 #define STAPSK "Sagnika6927%"
